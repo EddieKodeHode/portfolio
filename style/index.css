@@ -1,5 +1,6 @@
 :root {
-    --main-color: #222;
+    --main-color: #0a0a0a;
+    --text-color-light: #f7f7f7;
     --bg-color: #444;
 }
 
@@ -7,8 +8,17 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--bg-color);
+    color: var(--text-color-light);
 }
 
 header {
     background-color: var(--main-color);
+}
+
+nav a {
+    color: var(--text-color-light);
+}
+
+#current-page {
+    color: red;
 }
