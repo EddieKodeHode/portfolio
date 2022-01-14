@@ -9,10 +9,29 @@ body {
     padding: 0;
     background-color: var(--bg-color);
     color: var(--text-color-light);
+    background-image: url(../images/checkers.png);
+    background-size: 10%;
 }
+
+/* Header and NAV */
 
 header {
     background-color: var(--main-color);
+    padding: 0.1em 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+header h1 {
+    margin: 0;
+    align-self: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style: none;
 }
 
 nav a {
@@ -29,11 +48,27 @@ nav a {
     color: red;
 }
 
-/*  */
+/* Animation for header */
 
 @keyframes blinking {
     0% {color: var(--text-color-light);}
     49% {color: var(--text-color-light);}
     50% {color: rgba(0,0,0,0);}
     100% {color: rgba(0,0,0,0);}
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--main-color);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+footer p {
+    padding: 0.2em;
+    margin: 0;
+    font-size: 0.75rem;
+    text-align: end;
 }
