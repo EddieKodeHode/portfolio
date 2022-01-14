@@ -1,0 +1,13 @@
+img {
+    height: 200px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+div:nth-child(2) {
+    width: 70%;
+}

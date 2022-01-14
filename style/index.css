@@ -1,6 +1,6 @@
 :root {
     --main-color: #0a0a0a;
-    --body-color: rgba(0,0,0,0.8);
+    --body-color: #0a0a0a;
     --text-color-light: #f7f7f7;
     --bg-color: #444;
 }
@@ -77,8 +77,11 @@ nav a {
 main {
     background-color: var(--body-color);
     width: 90%;
+    height: 80%;
+    overflow: auto;
     padding: 2em;
     margin: 3em auto;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
 }
 
 /* Footer */
