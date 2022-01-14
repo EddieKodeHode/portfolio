@@ -1,7 +1,19 @@
 :root {
     --main-color: #0a0a0a;
+    --body-color: rgba(0,0,0,0.8);
     --text-color-light: #f7f7f7;
     --bg-color: #444;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+@font-face {
+    font-family: Dogica;
+    src: url(../font/dogicapixel.ttf);
+}
+@font-face {
+    font-family: DogicaBold;
+    src: url(../font/dogicapixelbold.ttf);
 }
 
 body {
@@ -11,6 +23,7 @@ body {
     color: var(--text-color-light);
     background-image: url(../images/checkers.png);
     background-size: 10%;
+    font-family: 'Lato', sans-serif;
 }
 
 /* Header and NAV */
@@ -25,6 +38,7 @@ header {
 header h1 {
     margin: 0;
     align-self: center;
+    font-family: 'DogicaBold';
 }
 
 nav ul {
@@ -32,6 +46,7 @@ nav ul {
     justify-content: space-around;
     padding: 0;
     list-style: none;
+    font-family: 'Dogica';
 }
 
 nav a {
@@ -55,6 +70,15 @@ nav a {
     49% {color: var(--text-color-light);}
     50% {color: rgba(0,0,0,0);}
     100% {color: rgba(0,0,0,0);}
+}
+
+/* Main */
+
+main {
+    background-color: var(--body-color);
+    width: 90%;
+    padding: 2em;
+    margin: 3em auto;
 }
 
 /* Footer */
