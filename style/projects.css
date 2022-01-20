@@ -1,0 +1,23 @@
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+article {
+    width: 18em;
+    padding: 2em;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+article img {
+    height: 10em;
+    max-width: 18em;
+    background-size: cover;
+    transition: 0.2s;
+}
+
+article img:hover {
+    filter: grayscale(80%);
+}
