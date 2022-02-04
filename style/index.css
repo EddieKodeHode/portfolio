@@ -110,3 +110,19 @@ footer p {
     font-size: 0.75rem;
     text-align: end;
 }
+
+::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--body-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: red;
+}
