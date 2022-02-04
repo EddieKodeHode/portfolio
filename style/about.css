@@ -1,9 +1,8 @@
 img {
     height: 200px;
     width: 200px;
-    background-size: contain;
-    background-position: center;
     object-fit: cover;
+    object-position: center;
 }
 
 main {
