@@ -1,4 +1,8 @@
 main {
+    text-align: center;
+}
+
+.articles {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -6,18 +10,18 @@ main {
 
 article {
     width: 18em;
-    max-height: 8em;
+    max-height: 14em;
     padding: 0;
     overflow: hidden;
     text-align: center;
     transition: 1s;
-    border: 1px solid red;
     margin: 0.5em;
+    box-shadow: 0 0 10px black;
 }
 
-article:hover {
-    max-height: 12em;
-}
+/* article:hover {
+    max-height: 14em;
+} */
 
 article img {
     width: 100%;
@@ -28,4 +32,18 @@ article img {
 
 article:hover img {
     filter: grayscale(80%);
+}
+
+.article-links {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.75rem;
+    padding: 0.5em;
+}
+.article-links p {
+    margin: 0;
+}
+
+footer {
+    position: relative;
 }

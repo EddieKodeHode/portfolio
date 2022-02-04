@@ -85,6 +85,16 @@ main {
     box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
 }
 
+a {
+    color: var(--text-color-light);
+    font-weight: bolder;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: red;
+}
+
 /* Footer */
 
 footer {
