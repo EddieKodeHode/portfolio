@@ -7,10 +7,10 @@ img {
 
 main {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
 }
 
 div:nth-child(2) {
-    width: 70%;
+    width: 60%;
 }

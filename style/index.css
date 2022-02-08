@@ -126,3 +126,14 @@ footer p {
 ::-webkit-scrollbar-thumb:hover {
     background: red;
 }
+
+/* Home page */
+
+#home {
+    margin: auto;
+    height: 20em;
+    width: 20em;
+    background-image: url(../images/home-1.png);
+    background-position: center;
+    background-size: cover;
+}
