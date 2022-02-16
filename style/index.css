@@ -138,3 +138,22 @@ footer p {
     background-position: center;
     background-size: cover;
 }
+
+/* Language toggle */
+
+#language-toggle {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+#language-toggle img {
+    width: 50px;
+    height: 50px;
+    transition: 0.2s;
+}
+
+#language-toggle img:hover {
+    width: 60px;
+    height: 60px;
+}
